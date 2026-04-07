@@ -3,7 +3,7 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "python polymarket_5min_monitor.py",
+    "startCommand": "python main.py",
     "restartPolicyType": "ON_FAILURE"
   }
 }
