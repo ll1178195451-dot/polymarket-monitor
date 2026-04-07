@@ -9,7 +9,7 @@ TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 TELEGRAM_CHAT_ID = 8627467932
 
 POLL_INTERVAL = 15
-THRESHOLD = 1000  # 测试用100
+THRESHOLD = 1000
 
 bot = telegram.Bot(token=TELEGRAM_TOKEN)
 start_time = datetime.now()
