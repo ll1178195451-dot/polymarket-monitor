@@ -2,7 +2,7 @@ import requests
 import time
 from datetime import datetime, timezone, timedelta
 
-THRESHOLD = 500
+THRESHOLD = 50
 POLL_INTERVAL = 15
 
 def get_current_slug(asset):
